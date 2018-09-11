@@ -7,6 +7,7 @@ git add .：提交文件至暂存区
 mkdir：创建目录
 cd：进入目录
 ls：查看当前目录下文件
+git clone http://github.com/uaremydr/gitStudy.git study：克隆项目
 
 
 
