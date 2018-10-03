@@ -11,5 +11,3 @@ ls：查看当前目录下文件
 git clone http://github.com/uaremydr/gitStudy.git study：克隆项目
 git cat-file -p 0155eb4229851634a0f03eb265b69f5a2d56f341：查看文件内容
 
-
-
