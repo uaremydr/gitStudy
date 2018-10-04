@@ -1,13 +1,19 @@
-git remote rm origin：删除远端
-git remote add git@github.com:uaremydr/gitStudy.git：添加远端
+
+git remote :查看当前配置有哪些远端
+git remote -v :查看fetch远端和push远端
+git remote rm origin：删除远端起源（相当于删除fetch和push的目标地址）
+git remote add origin git@github.com:uaremydr/gitStudy.git：添加远端起源（相当于添加fetch和push的目标地址）
+
+git push -u origin master：推送至远端起源master分支
+git push origin master:推送至远端起源master分支
+git clone http://github.com/uaremydr/gitStudy.git study：克隆项目
 git init：初始化Git，生成.git文件夹
 git init newrepository：初始化Git，在指定文件夹下生成.git文件夹
 git commit -m "备注"：提交并添加备注
-git push -u origin master：推送至远端master分支
+git commit -am '备注' :添加文件到暂存区并提交到当前分支
 git add .：提交文件至暂存区
+git cat-file -p 0155eb4229851634a0f03eb265b69f5a2d56f341：查看文件内容
+
 mkdir：创建目录
 cd：进入目录
 ls：查看当前目录下文件
-git clone http://github.com/uaremydr/gitStudy.git study：克隆项目
-git cat-file -p 0155eb4229851634a0f03eb265b69f5a2d56f341：查看文件内容
-
